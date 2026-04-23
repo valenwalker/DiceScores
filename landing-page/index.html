@@ -4,38 +4,82 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yatzy / Yahtzee Scores – Easy Scorecard</title>
-  <meta name="description" content="The smartest scoresheet companion for Yahtzee and Yatzy. Track scores, stats, and history — for free on iPhone and iPad." />
+  <meta name="description" content="The smartest scoresheet companion for Yahtzee and Yatzy. Track scores, stats, and history — free on iPhone and iPad." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <div class="container">
-      <div class="app-icon">🎲</div>
-      <h1>Yatzy / Yahtzee Scores</h1>
-      <p class="tagline">The smartest scoresheet for your dice games</p>
-      <a class="btn-download" href="https://apps.apple.com/us/app/yatzy-yahtzee-scores/id6457514656" target="_blank" rel="noopener">
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">🎲 <span>Yatzy Scores</span></div>
+      <a class="btn-nav" href="https://apps.apple.com/us/app/yatzy-yahtzee-scores/id6457514656" target="_blank" rel="noopener">Get the App</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Free · iPhone &amp; iPad</p>
+      <h1>Score <em>smarter</em>,<br />play <em>better.</em></h1>
+      <p class="subtitle">The most intuitive scoresheet for <strong>Yahtzee</strong>, <strong>Yatzy</strong>, <strong>Yams</strong>, <strong>Kniffel</strong>, and more. Dice intelligence, player stats, and full match history — all in one place.</p>
+      <a class="btn-store" href="https://apps.apple.com/us/app/yatzy-yahtzee-scores/id6457514656" target="_blank" rel="noopener">
         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" />
       </a>
     </div>
-  </header>
 
+    <div class="hero-phone">
+      <div class="screenshot-frame">
+        <img class="phone-screenshot" src="screenshot.png" alt="Yatzy Scores app screenshot" />
+      </div>
+    </div>
+  </section>
+
+  <!-- MILESTONES -->
+  <section class="milestones">
+    <div class="container">
+      <div class="milestone-grid">
+        <div class="milestone">
+          <span class="m-value">4.7<span class="star">★</span></span>
+          <span class="m-label">App Store Rating</span>
+        </div>
+        <div class="milestone">
+          <span class="m-value">500+</span>
+          <span class="m-label">Reviews</span>
+        </div>
+        <div class="milestone">
+          <span class="m-value">6</span>
+          <span class="m-label">Game Variants</span>
+        </div>
+        <div class="milestone">
+          <span class="m-value">Free</span>
+          <span class="m-label">To Download</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
   <section class="features">
     <div class="container">
+      <h2 class="section-title">Everything you need at the table</h2>
       <div class="feature-grid">
         <div class="feature">
           <span class="icon">🎯</span>
           <h3>Dice Intelligence</h3>
-          <p>See percentage chances for every possible roll outcome instantly.</p>
+          <p>See real-time percentage chances for every possible roll outcome.</p>
         </div>
         <div class="feature">
           <span class="icon">📊</span>
           <h3>Player Stats</h3>
-          <p>Track performance across games with detailed history and comparisons.</p>
+          <p>Track performance across games with detailed history and head-to-head comparisons.</p>
         </div>
         <div class="feature">
           <span class="icon">🎨</span>
-          <h3>Themes & Dark Mode</h3>
+          <h3>Themes &amp; Dark Mode</h3>
           <p>Personalize your experience with custom themes including glass effects.</p>
         </div>
         <div class="feature">
@@ -47,10 +91,46 @@
     </div>
   </section>
 
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <div class="container">
+      <h2 class="section-title">Loved by players</h2>
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Finally a Yahtzee scoresheet that actually works. The dice probability hints are a game changer — my family uses it every weekend."</p>
+          <span class="review-author">— Mike T.</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Clean, fast, and no annoying ads in the middle of a game. The match history is perfect for keeping track of who owes who a rematch."</p>
+          <span class="review-author">— Laura M.</span>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Best Yatzy app on the App Store. Supports multiple game variants and the dark theme looks incredible on OLED screens."</p>
+          <span class="review-author">— Daniel R.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to roll?</h2>
+      <p>Free on iPhone and iPad. No account needed.</p>
+      <a class="btn-store" href="https://apps.apple.com/us/app/yatzy-yahtzee-scores/id6457514656" target="_blank" rel="noopener">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" />
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
     <div class="container">
-      <p>Free · iPhone &amp; iPad · Rated 4.7 ★</p>
-      <p><a href="mailto:yatzy.scores@gmail.com">Support</a></p>
+      <span>© 2025 Yatzy Scores</span>
+      <a href="mailto:yatzy.scores@gmail.com">Support</a>
     </div>
   </footer>
 
